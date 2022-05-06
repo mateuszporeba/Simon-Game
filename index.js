@@ -31,6 +31,7 @@ function playerClick(color) {
             var sound = new Audio("sounds/yellow.mp3");
             sound.play();
             canClick = true
+            
             if (playerSequenceNumber >= gameSequence.length) {
                 playerSequenceNumber = 0;
                 counter++;
