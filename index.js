@@ -20,6 +20,7 @@ playerClick("red");
 playerClick("green");
 playerClick("yellow");
 playerClick("blue");
+
 function playerClick(color) {
 
     $("." + color).mousedown(function () {
@@ -88,7 +89,6 @@ function randomChooseNext() {
         }
         console.log("gameSequence losowanie:" + gameSequence);
     }, 500);
-
 }
 
 
